@@ -14,12 +14,12 @@ h1{
     border-bottom: 5px solid black;
 }
 .AboutMe img {
-    max-width: 200px; /* Adjust as needed */
+    max-width: 200px; 
     height: auto;
-    object-fit: cover; /* Ensures the aspect ratio of the image is maintained */
-    border: 2px solid #000; /* Adds a border around the image */
-    margin: 10px auto; /* Centers the image and adds some space around it */
-    display: block; /* Needed for centering the image with margin auto */
+    object-fit: cover; 
+    border: 2px solid #0000;
+    margin: 10px auto;
+    display: block; 
 }
 @media (max-width: 600px) {
     .AboutMe, .Resume, .ContactMe {
