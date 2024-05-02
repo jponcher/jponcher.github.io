@@ -22,4 +22,16 @@ img{
     align-items: left;
     margin-top: 5px;
 }
+@media (max-width: 600px) {
+    .container .col img {
+      max-width: 100%;
+      display: block;
+      margin: 10px auto;
+    }
+  
+    .container .col {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
 
